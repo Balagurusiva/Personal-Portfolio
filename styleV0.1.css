@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li,a , button{
+    font-family: "Montserrat", sans_serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 5px 30px;   
+    background-color: #ffffff;
+    border-bottom:0.5px solid gainsboro;
+    position: relative;
+}  
+ 
+.nav_links{
+    list-style:none;
+}
+.nav_links li{
+    display: inline-block;
+    padding:0px 20px; /*top and bottom ; left and right*/
+      
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color:rgb(0, 0, 0);
+}
+.nav_links li a:hover{
+    color: white;
+    background-color:rgba(0,136,1,1) ;
+    padding: 5px 6px;
+    border-radius: 30px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(67, 179, 207);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+}
+button:hover{
+    background-color: rgba(0,136,1,1);
+}
+ 
+.intro{
+    float: left;
+    width :200px;
+    height: 550px;
+    margin:0px;
+    text-align: center;
+    background-color: #ffffff;
+    border-right: 8px solid gainsboro;
+    
+}
+ 
+.media-link img{
+    border-radius: 50px; 
+    margin: 5px 20px;
+}
+.intro ul{
+    
+    color:rgb(0, 0, 0);
+    font-family: 'Fredoka', sans-serif;
+     }
+a{
+    color:black;
+}
+.media-link li{
+    padding-bottom: 15px;
+    color: black;
+}
+ 
+.content{
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+    width: 863px;
+    height: 600px ;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+.content div{
+    padding-bottom: 20px;
+}
+fieldset{
+    padding:20px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left;
+    background-color:  rgb(67, 179, 207);
+}
+fieldset:hover{
+    background-color: rgba(0,136,1,1);
+    transition: all 0.3s ease 0s; 
+}
+legend{
+
+    background-image: url("bio-bg.png");
+     background-size: contain;
+    border-radius: 3px;
+    border:2px solid #dcdcdc;
+    padding:10px;
+}
+.side-bar{
+    width :200px;
+    height: 550px;
+    float:right;
+     border: 2px solid black;
+     background-color: #ffffff;
+     border-left: 8px solid gainsboro;
+}
+.pro1{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 5px 30px;  
+}
+.pro1 li{
+    display: inline-block;
+    padding:0px 20px; 
+}
